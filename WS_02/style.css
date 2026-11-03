@@ -1,0 +1,32 @@
+body {background-image: url(Gingham\ background.jpg);}
+.parent
+{position: relative;
+background-size: cover;
+height: 1000px;}
+.child {position: absolute;
+top: 80%;
+left:50%;
+transform: translate(-50%, -50%);
+background-color: white;
+margin: 10px;
+padding: 20px}
+h1 {font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px; text-align: center;}
+h1 {color:pink; text-shadow: 0 0 3px rgb(245, 173, 231), 0 0 5px white;}
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p {font-size: 18px; color: pink;}
+h2 {font-family: Arial, Helvetica, sans-serif; font-size: 20px; color:pink}
+ul {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:20px; color: pink;}
+li {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:18px; color:pink;}
+h3 {font-family:Arial, Helvetica, sans-serif; font-size:20px; color:pink;}
+h4 {font-family:Arial, Helvetica, sans-serif; font-size:20px; color: pink;}
+tr, th, td {font-family: Verdana, Geneva, Tahoma, sans-serif; color:white;}
+tr {font-family: Arial, Helvetica, sans-serif; font-size:20px;}
+td {font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
+table, th, td {border: 1px solid white}
+th, td {background-color: pink;}
+h5 {font-family:Arial, Helvetica, sans-serif; font-size:20px; color: pink;}
+input[type=text] {border: 2px solid pink; padding: 4px;}
+input[type=email] {border: 2px solid pink; padding: 4px;}
+input[type=submit] {border: 2px solid white; background-color: pink; color: white; padding: 5px; font-size: 20px;}
+input[type=submit]:focus {background-color: rgb(211, 101, 129);}
+a:link {color:pink; text-decoration: none;}
