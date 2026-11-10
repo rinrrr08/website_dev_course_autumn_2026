@@ -11,7 +11,7 @@ background-color: white;
 margin: 10px;
 padding: 20px}
 h1 {font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px; text-align: center;}
-h1 {color:pink; text-shadow: 0 0 3px rgb(245, 173, 231), 0 0 5px white;}
+h1 {color:rgb(254, 251, 252); text-shadow: 0 0 3px rgb(254, 143, 162), 0 0 5px rgb(190, 122, 161);}
 p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 p {font-size: 18px; color: pink;}
 h2 {font-family: Arial, Helvetica, sans-serif; font-size: 20px; color:pink}
@@ -25,8 +25,10 @@ td {font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
 table, th, td {border: 1px solid white}
 th, td {background-color: pink;}
 h5 {font-family:Arial, Helvetica, sans-serif; font-size:20px; color: pink;}
-input[type=text] {border: 2px solid pink; padding: 4px;}
-input[type=email] {border: 2px solid pink; padding: 4px;}
+input[type=text] {border: 2px solid rgb(255, 136, 125); padding:4px;}
+input[type=text]:focus {border: 2px solid pink; padding: 4px; outline: none;}
+input[type=email] {border: 2px solid rgb(255, 136, 125); padding: 4px;}
+input[type=email]:focus {border: 2px solid pink; padding: 4px; outline: none;}
 input[type=submit] {border: 2px solid white; background-color: pink; color: white; padding: 5px; font-size: 20px;}
 input[type=submit]:focus {background-color: rgb(211, 101, 129);}
 a:link {color:pink; text-decoration: none;}

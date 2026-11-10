@@ -1,0 +1,197 @@
+body {
+  background-image: url(Gingham\ background.jpg);
+}
+.parent {
+  position: relative;
+  background-size: cover;
+  height: 1000px;
+}
+.child {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+}
+
+.animation-box {
+  position: relative;
+  animation: move 1s infinite alternate;
+}
+@keyframes move {
+  from {
+    bottom: 100px;
+  }
+  to {
+    top: 50px;
+  }
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+.filter-image {
+  filter: brightness(60%);
+   transition: filter 0.3s ease;
+  }
+.filter-image:hover {
+  filter: brightness(100%);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+.pseudo-list li:nth-child(odd) {
+  background-color: pink;
+  width: 24%;
+  position: relative;
+}
+.pseudo-list li:nth-child(even) {
+  background-color: rgb(252, 202, 247);
+  width: 24%;
+  position: relative;
+}
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: rgb(249, 247, 247);
+}
+li::marker {
+  color: pink;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+.quote {
+  position: relative;
+  padding-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+.quote::before {
+  position: absolute;
+  content: '"';
+  font-size: 30px;
+  left: 0;
+  top: 0;
+  color: pink;
+}
+.quote::after {
+  position: relative;
+  content: '"';
+  font-size: 30px;
+  left: 0;
+  top: 0;
+}
+
+tr,
+th,
+td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+tr {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+}
+th,
+td {
+  background-color: pink;
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+
+.transition-button {
+  background-color: white;
+  padding: 5px;
+  font-size: 20px;
+  color: pink;
+  border: solid pink;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+  background-color: pink;
+  color: white;
+}
+input[type="text"] {
+  border: 2px solid rgb(255, 136, 125);
+  padding: 4px;
+}
+input[type="text"]:focus {
+  border: 2px solid pink;
+  padding: 4px;
+  outline: none;
+}
+input[type="email"] {
+  border: 2px solid rgb(255, 136, 125);
+  padding: 4px;
+}
+input[type="email"]:focus {
+  border: 2px solid pink;
+  padding: 4px;
+  outline: none;
+}
+input[type="submit"] {
+  border: 2px solid white;
+  background-color: pink;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+}
+input[type="submit"]:focus {
+  background-color: rgb(211, 101, 129);
+}
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+.centered {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: rgb(255, 159, 194);
+  text-shadow:
+    0 0 3px #ffa3c3,
+    0 0 5px #ff9bad;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
